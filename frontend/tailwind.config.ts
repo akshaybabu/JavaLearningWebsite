@@ -1,0 +1,15 @@
+import type { Config } from "tailwindcss";
+
+// NOTE: In Tailwind CSS v4, most theme configuration is done in CSS using @theme.
+// This file is kept for compatibility with any remaining v3 style options.
+const config: Config = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {},
+  plugins: [],
+};
+
+export default config;
